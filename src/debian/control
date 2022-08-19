@@ -9,7 +9,7 @@ Homepage: https://github.com/probonopd/zsync-curl
 Package: zsync-curl
 Architecture: any
 Suggests: zsync
-Depends: ${shlibs:Depends}, ${misc:Depends}, libcurl3
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: client-side implementation of the rsync algorithm
  zsync is a file transfer program to download files from
  remote web servers. If a previous version of a file is available
